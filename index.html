@@ -1,0 +1,33 @@
+<!-- This is the project I html page from javascript course. This small app Keep a list of tasks in local storage and can be updated by the user. 
+Creted on: 25022023
+Author: RSC-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lista de tarefas</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1 class="card-header"> Lista de tarefas</h1>
+                <div class="card-body">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Digite a tarefa" name="tarefa" id="tarefa" autofocus>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button" id="button">Cadastrar</button>
+                        </div>
+                    </div>
+                        <ul id="lista" class="list-group">
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script> 
+    </body>
+</html>
+
